@@ -1,6 +1,6 @@
 {
   "name": "con-markdown-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "markdown file convert to html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   "homepage": "https://github.com/namityo/con-markdown-html#readme",
   "preferGlobal ": true,
   "bin": {
-    "con-markdown-html": "bin/con-markdown-html.js"
+    "con-markdown-html": "bin/con-markdown-html"
   },
   "dependencies": {
     "commander": "^2.13.0",

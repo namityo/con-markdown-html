@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var program = require('commander');
 var ConMarkdownHtml = require('../lib/con-markdown-html');
 
