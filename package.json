@@ -28,6 +28,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "mkdirp": "^0.5.1",
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "recursive-readdir": "^2.2.1"
   }
 }
