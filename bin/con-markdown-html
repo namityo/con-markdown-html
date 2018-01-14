@@ -19,7 +19,7 @@ program
 if (program.args.length === 0) program.help()
 
 var obj = new ConMarkdownHtml();
-obj.addStylePath(path.join(__dirname, '../node_modules', 'normalize.css', 'normalize.css'));
+obj.addStylePath(require.resolve('normalize.css'));
 
 // set parameter
 if (program.ext) obj.outputExtname = program.ext;
@@ -28,7 +28,7 @@ if (program.break) obj.break = program.break;
 if (program.css) {
     obj.stylePaths.push(program.css);
 } else {
-    obj.addStylePath(path.join(__dirname, '../node_modules', 'github-markdown-css', 'github-markdown.css'));
+    obj.addStylePath(require.resolve('github-markdown-css'));
 }
 if (program.usercss) obj.addStylePath(program.usercss);
 
