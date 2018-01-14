@@ -1,7 +1,7 @@
 {
   "name": "con-markdown-html",
-  "version": "0.0.3",
-  "description": "markdown file convert to html",
+  "version": "0.0.4",
+  "description": "convert markdown file to html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/namityo/con-markdown-html.git"
   },
-  "author": "",
+  "author": "Kazuma Namiki <namityo@hotmail.com> (https://github.com/namityo/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/namityo/con-markdown-html/issues"
